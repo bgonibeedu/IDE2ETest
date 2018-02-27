@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber", "json:target/cucumber.json" }, features = {
-		"./src/test/resources/featurefiles/VechileVerifications.feature"}, glue = {
+		"./src/test/resources/featurefiles"}, glue = {
 				"teststeps/"})
 public class RunnerTest  {
 

@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./src/test/resources/featurefiles/VechileVerifications.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("VechileVerifications.feature");
 formatter.feature({
   "line": 2,
   "name": "Test to validate vechile make and colour",

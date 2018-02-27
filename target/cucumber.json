@@ -1,0 +1,55 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Read vehicle registration details from a file and compare it in DVLA website",
+        "description": "",
+        "id": "test-to-validate-vechile-make-and-colour;read-vehicle-registration-details-from-a-file-and-compare-it-in-dvla-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I search for the file with \"xlsx\" extension",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I compare the vechile registraion details",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "The vechile details should match",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test to validate vechile make and colour",
+    "description": "",
+    "id": "test-to-validate-vechile-make-and-colour",
+    "keyword": "Feature",
+    "uri": "VechileVerifications.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@VechicleRegistrationEnquiry"
+      }
+    ]
+  }
+]
